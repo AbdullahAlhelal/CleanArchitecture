@@ -1,4 +1,7 @@
 ﻿using clean_architecture.Core.Interfaces;
+using clean_architecture.infastrcured.persistnace.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,27 +12,39 @@ namespace clean_architecture.infastrcured.persistnace
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
-        ValueTask<TEntity> IRepository<TEntity>.AddAsync(TEntity entity)
+
+        ApplicationDbContext _context;
+        DbSet<TEntity> _entity;
+        public Repository(ApplicationDbContext applicationDbContext)
         {
-            throw new NotImplementedException();
+            _context = applicationDbContext;
+            _entity = _context.Set<TEntity>();
+
+        }
+        public async ValueTask<TEntity> AddAsync(TEntity entity)
+        {
+            await _entity.AddAsync(entity);
+            return entity;
         }
 
-        ValueTask<TEntity> IRepository<TEntity>.DeleteAsync(TEntity entity)
+        public async  ValueTask<TEntity> DeleteAsync(TEntity entity)
         {
-            throw new NotImplementedException();
+          
+            return entity;
         }
 
-        ValueTask<IEnumerable<TEntity>> IRepository<TEntity>.GetAll()
+        public async ValueTask<IEnumerable<TEntity>> GetAll()
         {
-            throw new NotImplementedException();
+            return await _entity.ToListAsync();
         }
 
-        ValueTask<TEntity> IRepository<TEntity>.GetEntityById<T>(T id)
+        public async ValueTask<TEntity> GetEntityById<T>(T id)
         {
-            throw new NotImplementedException();
-        }
+            var entity = await _entity.FindAsync(id);
+            return entity;
+             }
 
-        ValueTask<TEntity> IRepository<TEntity>.UpdateAsync(TEntity entity)
+        public ValueTask<TEntity> UpdateAsync(TEntity entity)
         {
             throw new NotImplementedException();
         }

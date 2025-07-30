@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abdullah\\source\\repos\\clean architecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj": {}
+    "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abdullah\\source\\repos\\clean architecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj": {
+    "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abdullah\\source\\repos\\clean architecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj",
-        "projectName": "clean architecture.infastrcured",
-        "projectPath": "C:\\Users\\abdullah\\source\\repos\\clean architecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj",
-        "packagesPath": "C:\\Users\\abdullah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abdullah\\source\\repos\\clean architecture\\clean architecture.infastrcured\\obj\\",
+        "projectUniqueName": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj",
+        "projectName": "clean architecture.Core",
+        "projectPath": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj",
+        "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Users\\Abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,6 +27,8 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,8 +46,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -67,7 +67,88 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj",
+        "projectName": "clean architecture.infastrcured",
+        "projectPath": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj",
+        "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj": {
+                "projectPath": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

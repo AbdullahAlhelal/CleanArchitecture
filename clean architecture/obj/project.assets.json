@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "clean architecture.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/clean architecture.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/clean architecture.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "clean architecture.Core/1.0.0": {
+      "type": "project",
+      "path": "../clean architecture.Core/clean architecture.Core.csproj",
+      "msbuildProject": "../clean architecture.Core/clean architecture.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "clean architecture.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Abdullah\\.nuget\\packages\\": {},
@@ -15,11 +34,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture\\clean architecture.csproj",
+      "projectUniqueName": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture\\clean architecture.csproj",
       "projectName": "clean architecture",
-      "projectPath": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture\\clean architecture.csproj",
+      "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture\\clean architecture.csproj",
       "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture\\obj\\",
+      "outputPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -42,7 +61,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj": {
+              "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

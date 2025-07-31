@@ -7,4 +7,8 @@
     <RootNamespace>clean_architecture</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\clean architecture.Core\clean architecture.Core.csproj" />
+  </ItemGroup>
+
 </Project>

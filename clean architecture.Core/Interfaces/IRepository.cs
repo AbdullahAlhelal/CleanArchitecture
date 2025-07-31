@@ -10,8 +10,9 @@ namespace clean_architecture.Core.Interfaces
     {
         ValueTask<IEnumerable< TEntity>> GetAll();
         ValueTask<TEntity> AddAsync(TEntity entity);
-        ValueTask<TEntity> UpdateAsync(TEntity entity);
+        void UpdateAsync(TEntity entity);
         ValueTask<TEntity> DeleteAsync(TEntity entity);
         ValueTask<TEntity> GetEntityById<T>(T id);
+        int SaveChanges();
     }
 }

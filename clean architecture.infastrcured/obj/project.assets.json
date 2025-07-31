@@ -3114,9 +3114,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj",
+      "projectUniqueName": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj",
       "projectName": "clean architecture.infastrcured",
-      "projectPath": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj",
+      "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj",
       "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\obj\\",
       "projectStyle": "PackageReference",
@@ -3142,8 +3142,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj": {
-              "projectPath": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj"
+            "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj": {
+              "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj"
             }
           }
         }

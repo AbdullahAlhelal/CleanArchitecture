@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zTNnLUeEEdPkdFCGI5QVlaXjhJPZYMOEJSYLs7aM4wRVmAHyMEgEXsrEe2KhNkEPcS78dcl8lCXWNmBZXEZM4Q==",
+  "dgSpecHash": "cvOTX4B/mhMC7xtZ+/EhesY0UEdTfuiqUgxigymbOqr8CY2bkSjoo9yCpK2sqOuAFNmQ6rPDpXOPNJ/TTeTagQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj",
+  "projectFilePath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abdullah\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Abdullah\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

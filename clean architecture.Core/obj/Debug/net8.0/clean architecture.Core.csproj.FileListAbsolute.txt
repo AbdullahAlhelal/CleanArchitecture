@@ -1,0 +1,12 @@
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.Core\bin\Debug\net8.0\clean architecture.Core.deps.json
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.Core\bin\Debug\net8.0\clean architecture.Core.dll
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.Core\bin\Debug\net8.0\clean architecture.Core.pdb
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.Core\obj\Debug\net8.0\clean architecture.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.Core\obj\Debug\net8.0\clean architecture.Core.AssemblyInfoInputs.cache
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.Core\obj\Debug\net8.0\clean architecture.Core.AssemblyInfo.cs
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.Core\obj\Debug\net8.0\clean architecture.Core.csproj.CoreCompileInputs.cache
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.Core\obj\Debug\net8.0\clean architecture.Core.sourcelink.json
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.Core\obj\Debug\net8.0\clean architecture.Core.dll
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.Core\obj\Debug\net8.0\refint\clean architecture.Core.dll
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.Core\obj\Debug\net8.0\clean architecture.Core.pdb
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.Core\obj\Debug\net8.0\ref\clean architecture.Core.dll

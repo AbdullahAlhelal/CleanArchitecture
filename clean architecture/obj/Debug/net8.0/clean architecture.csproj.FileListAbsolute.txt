@@ -1,0 +1,30 @@
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\bin\Debug\net8.0\appsettings.json
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\bin\Debug\net8.0\clean architecture.exe
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\bin\Debug\net8.0\clean architecture.deps.json
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\bin\Debug\net8.0\clean architecture.runtimeconfig.json
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\bin\Debug\net8.0\clean architecture.dll
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\bin\Debug\net8.0\clean architecture.pdb
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\clean architecture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\clean architecture.AssemblyInfoInputs.cache
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\clean architecture.AssemblyInfo.cs
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\clean architecture.csproj.CoreCompileInputs.cache
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\clean architecture.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\clean architecture.sourcelink.json
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\staticwebassets\msbuild.clean architecture.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\staticwebassets\msbuild.build.clean architecture.props
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.clean architecture.props
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.clean architecture.props
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\scopedcss\bundle\clean architecture.styles.css
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\clean architecture.dll
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\refint\clean architecture.dll
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\clean architecture.pdb
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\clean architecture.genruntimeconfig.cache
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\ref\clean architecture.dll
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\bin\Debug\net8.0\clean architecture.Core.dll
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\bin\Debug\net8.0\clean architecture.Core.pdb
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\clean architecture.csproj.AssemblyReference.cache
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\clean ar.173BF975.Up2Date

@@ -27,9 +27,8 @@ namespace clean_architecture.infastrcured.persistnace
             return entity;
         }
 
-        public async  ValueTask<TEntity> DeleteAsync(TEntity entity)
+        public async ValueTask<TEntity> DeleteAsync(TEntity entity)
         {
-          
             return entity;
         }
 
@@ -42,11 +41,17 @@ namespace clean_architecture.infastrcured.persistnace
         {
             var entity = await _entity.FindAsync(id);
             return entity;
-             }
+        }
 
-        public ValueTask<TEntity> UpdateAsync(TEntity entity)
+        public int SaveChanges()
         {
-            throw new NotImplementedException();
+            return _context.SaveChanges();
+        }
+
+        public void UpdateAsync(TEntity entity)
+        {
+            _entity.Update(entity);
+
         }
     }
 }

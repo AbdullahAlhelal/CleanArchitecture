@@ -1,0 +1,16 @@
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.infastrcured\bin\Debug\net8.0\clean architecture.infastrcured.deps.json
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.infastrcured\bin\Debug\net8.0\clean architecture.infastrcured.dll
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.infastrcured\bin\Debug\net8.0\clean architecture.infastrcured.pdb
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.infastrcured\bin\Debug\net8.0\clean architecture.Core.dll
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.infastrcured\bin\Debug\net8.0\clean architecture.Core.pdb
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.infastrcured\obj\Debug\net8.0\clean architecture.infastrcured.csproj.AssemblyReference.cache
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.infastrcured\obj\Debug\net8.0\clean architecture.infastrcured.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.infastrcured\obj\Debug\net8.0\clean architecture.infastrcured.AssemblyInfoInputs.cache
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.infastrcured\obj\Debug\net8.0\clean architecture.infastrcured.AssemblyInfo.cs
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.infastrcured\obj\Debug\net8.0\clean architecture.infastrcured.csproj.CoreCompileInputs.cache
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.infastrcured\obj\Debug\net8.0\clean architecture.infastrcured.sourcelink.json
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.infastrcured\obj\Debug\net8.0\clean ar.C841D7F1.Up2Date
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.infastrcured\obj\Debug\net8.0\clean architecture.infastrcured.dll
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.infastrcured\obj\Debug\net8.0\refint\clean architecture.infastrcured.dll
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.infastrcured\obj\Debug\net8.0\clean architecture.infastrcured.pdb
+C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture.infastrcured\obj\Debug\net8.0\ref\clean architecture.infastrcured.dll

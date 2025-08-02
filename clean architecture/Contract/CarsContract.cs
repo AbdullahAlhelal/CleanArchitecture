@@ -1,4 +1,5 @@
-﻿namespace clean_architecture.Contract
+﻿using Microsoft.AspNetCore.Builder;
+namespace clean_architecture.Contract
 {
     //Response
     public class CarsContract

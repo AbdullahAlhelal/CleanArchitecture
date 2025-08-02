@@ -1151,7 +1151,10 @@
         },
         "runtime": {
           "bin/placeholder/clean architecture.infastrcured.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },

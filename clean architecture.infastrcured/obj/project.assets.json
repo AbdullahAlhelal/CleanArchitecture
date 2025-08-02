@@ -3118,7 +3118,7 @@
       "projectName": "clean architecture.infastrcured",
       "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj",
       "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\obj\\",
+      "outputPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.infastrcured\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -3192,6 +3192,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

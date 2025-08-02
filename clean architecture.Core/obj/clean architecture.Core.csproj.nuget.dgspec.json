@@ -11,7 +11,7 @@
         "projectName": "clean architecture.Core",
         "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj",
         "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\obj\\",
+        "outputPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",

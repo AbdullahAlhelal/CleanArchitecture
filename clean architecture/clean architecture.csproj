@@ -9,6 +9,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\clean architecture.Core\clean architecture.Core.csproj" />
+    <ProjectReference Include="..\clean architecture.infastrcured\clean architecture.infastrcured.csproj" />
+    <ProjectReference Include="..\clean architecture.Services\clean architecture.Services.csproj" />
   </ItemGroup>
 
 </Project>

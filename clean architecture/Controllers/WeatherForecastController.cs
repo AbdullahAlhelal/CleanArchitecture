@@ -1,13 +1,13 @@
 using clean_architecture.Contract;
 using clean_architecture.Core.Entity;
 using clean_architecture.Core.Interfaces;
-using Microsoft.AspNetCore.Http.HttpResults;
+using clean_architecture.infastrcured.Factorys;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace clean_architecture.Controllers
 {
-
-
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -50,6 +50,15 @@ namespace clean_architecture.Controllers
             return Ok(oDate);
         }
 
-     
+
+        [HttpGet("v1/Factory")]
+        public  IActionResult FactoryBuilder()
+        {
+           var dbContext = DBContextFactory.ContextBuilder("sql");
+            dbContext.GetDbContextByType();
+            return Ok(dbContext );
+        }
+
+
     }
 }

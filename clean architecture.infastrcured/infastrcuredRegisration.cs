@@ -10,12 +10,12 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace clean_architecture.infastrcured
 {
-    public static class infastrcuredRegisration
-    {
+    //public static class infastrcuredRegisration
+    //{
 
-        public static void AddinfastrcuredRegisration(this WebApplicationBuilder webApplication)
-        {
-            webApplication.Services.AddTransient(typeof(IRepository<>) , typeof(Repository<>));
-        }
-    }
+    //    public static void AddinfastrcuredRegisration(this WebApplicationBuilder webApplication)
+    //    {
+    //        webApplication.Services.AddTransient(typeof(IRepository<>) , typeof(Repository<>));
+    //    }
+    //}
 }

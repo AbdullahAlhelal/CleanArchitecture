@@ -15,5 +15,6 @@ namespace clean_architecture.Core.Interfaces
         /// <returns>  Return Salay Employee By Name </returns>
         string GetNameByUserID(Guid userid);
         string GetUserNameByUserID(Guid userid);
+       
     } 
 }

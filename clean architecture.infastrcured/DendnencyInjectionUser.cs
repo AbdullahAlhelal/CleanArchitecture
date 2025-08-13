@@ -9,9 +9,17 @@ namespace clean_architecture.infastrcured
 {
     internal class DendnencyInjectionUser : IDendnencyInjectionUser
     {
+
+        private readonly IDendnencyInjectionDeparment _dendnencyInjectionDeparment;
+        public DendnencyInjectionUser(IDendnencyInjectionDeparment dendnencyInjectionDeparment)
+        {
+            _dendnencyInjectionDeparment = dendnencyInjectionDeparment;
+        }
+
+
         public string GetNameByUserID(Guid userid)
         {
-          return  $"Salay of {userid.ToString()} is 1$"  ;
+            return $"Salay of {userid.ToString()} is 1$";
         }
 
         public string GetUserNameByUserID(Guid userid)
@@ -27,7 +35,7 @@ namespace clean_architecture.infastrcured
 
         public DendnencyInjectionDeparment(IDendnencyInjectionUser dendnencyInjectionUser)
         {
-                _User = dendnencyInjectionUser; 
+            _User = dendnencyInjectionUser;
         }
         public string GetUserDeparmentByUserID(Guid userid)
         {
@@ -37,6 +45,22 @@ namespace clean_architecture.infastrcured
         public string GetUserNameAndJobByUserID(Guid userid)
         {
             return $"Name of {userid.ToString()} is {_User.GetNameByUserID(userid)}  And job is tester$";
+        }
+    }
+
+   public class Circulardependency : ICirculardependency
+    {
+        readonly IDendnencyInjectionUser _dendnencyInjectionUser;
+        readonly IDendnencyInjectionDeparment _dendnencyInjectionDeparment;
+        public Circulardependency(IDendnencyInjectionUser dendnencyInjectionUser , IDendnencyInjectionDeparment dendnencyInjectionDeparment )
+        {
+            this._dendnencyInjectionUser = dendnencyInjectionUser;
+            this._dendnencyInjectionDeparment = dendnencyInjectionDeparment;
+        }
+        public   string GetUserDeparmentAndUserNameByUserID(Guid userid)
+        {
+            return $" User Name  of {userid} is {_dendnencyInjectionUser.GetUserNameByUserID(userid)} and " +
+                $" Dept Name Is {_dendnencyInjectionDeparment.GetUserDeparmentByUserID(userid)}" ;
         }
     }
 

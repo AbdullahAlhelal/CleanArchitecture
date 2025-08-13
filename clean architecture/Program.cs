@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-//builder.AddinfastrcuredRegisration();
+builder.AddinfastrcuredRegisration();
 //builder.AddservicRegisration();
 
 var con = builder.Configuration.GetSection("ConnectionStrings:DefaultConnction").Value;

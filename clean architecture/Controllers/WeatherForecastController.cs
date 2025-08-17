@@ -1,6 +1,7 @@
 using clean_architecture.Contract;
 using clean_architecture.Core.Entity;
 using clean_architecture.Core.Interfaces;
+using clean_architecture.infastrcured.Brokers;
 using clean_architecture.infastrcured.Factorys;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -13,7 +14,7 @@ namespace clean_architecture.Controllers
     public class WeatherForecastController : ControllerBase
     {
         ICarServices _carServices;
-        
+        private readonly MainBroker _mainBroker;
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
@@ -21,9 +22,10 @@ namespace clean_architecture.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger , MainBroker mainBroker)
         {
             _logger = logger;
+            _mainBroker = mainBroker;
         }
 
         [HttpGet]
@@ -37,14 +39,14 @@ namespace clean_architecture.Controllers
             })
             .ToArray();
         }
-       
+
 
         [HttpPost("v1/AddCar")]
-        public async Task <ActionResult<CarsContract>> Createnew([FromBody] CarsContractOpertions car)
+        public async Task<ActionResult<CarsContract>> Createnew([FromBody] CarsContractOpertions car)
         {
             var oDate = new Car
             {
-                CarName= car.CarName,
+                CarName = car.CarName ,
             };
             await _carServices.Create(oDate);
             return Ok(oDate);
@@ -52,11 +54,24 @@ namespace clean_architecture.Controllers
 
 
         [HttpGet("v1/Factory")]
-        public  IActionResult FactoryBuilder()
+        public IActionResult FactoryBuilder()
         {
-           var dbContext = DBContextFactory.ContextBuilder("sql");
+            var dbContext = DBContextFactory.ContextBuilder("sql");
             dbContext.GetDbContextByType();
-            return Ok(dbContext );
+            return Ok(dbContext);
+        }
+
+
+        [HttpPost("v1/Broker")]
+        public IActionResult Broker(string Url , string content)
+        {
+            var get = _mainBroker.Get(Url);
+            var Post = _mainBroker.Post(Url , content);
+            var Put = _mainBroker.Put(Url , content);
+            var dlete = _mainBroker.Delete(Url , content);
+
+            List<string> strings = new List<string>() { get , Post , Put , dlete };
+            return Ok(strings.Select(x => x));
         }
 
 

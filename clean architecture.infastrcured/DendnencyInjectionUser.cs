@@ -10,13 +10,6 @@ namespace clean_architecture.infastrcured
     internal class DendnencyInjectionUser : IDendnencyInjectionUser
     {
 
-        private readonly IDendnencyInjectionDeparment _dendnencyInjectionDeparment;
-        public DendnencyInjectionUser(IDendnencyInjectionDeparment dendnencyInjectionDeparment)
-        {
-            _dendnencyInjectionDeparment = dendnencyInjectionDeparment;
-        }
-
-
         public string GetNameByUserID(Guid userid)
         {
             return $"Salay of {userid.ToString()} is 1$";

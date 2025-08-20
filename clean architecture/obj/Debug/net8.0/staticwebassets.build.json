@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "0ILubq6eAgPTWXVK7rrp6vP81F+ljMxNoSqBKxYxukw=",
+  "Hash": "tLAe/4o5SKdNOi6nEDrsLCP5SFOcjtF/YBBWQDkFnCs=",
   "Source": "clean architecture",
   "BasePath": "_content/clean architecture",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

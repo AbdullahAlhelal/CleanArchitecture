@@ -24,7 +24,7 @@ namespace clean_architecture.infastrcured
         {
             var OContent = JsonConvert.SerializeObject(Content);
 
-            var request = await _httpClient.PostAsync(url, new StringContent(OContent, System.Text.Encoding.UTF8, "appliction/json"));
+            var request = await _httpClient.PostAsync(url, new StringContent(OContent, System.Text.Encoding.UTF8, "application/json"));
             if (request.IsSuccessStatusCode)
             {
                 return JsonConvert.DeserializeObject<TResult>(await request.Content.ReadAsStringAsync())!;
@@ -36,7 +36,7 @@ namespace clean_architecture.infastrcured
         {
             var OContent = JsonConvert.SerializeObject(Content);
 
-            var request = await _httpClient.PostAsync(url, new StringContent(OContent, System.Text.Encoding.UTF8, "appliction/json"));
+            var request = await _httpClient.PostAsync(url, new StringContent(OContent, System.Text.Encoding.UTF8, "application/json"));
            
             return request;
         }
@@ -55,7 +55,7 @@ namespace clean_architecture.infastrcured
         {
             var OContent = JsonConvert.SerializeObject(Content);
 
-            var request = await _httpClient.PutAsync(url, new StringContent(OContent, System.Text.Encoding.UTF8, "appliction/json"));
+            var request = await _httpClient.PutAsync(url, new StringContent(OContent, System.Text.Encoding.UTF8, "application/json"));
             if (request.IsSuccessStatusCode)
             {
                 return JsonConvert.DeserializeObject<TResult>(await request.Content.ReadAsStringAsync())!;
@@ -68,7 +68,7 @@ namespace clean_architecture.infastrcured
           
             var OContent = JsonConvert.SerializeObject(Content);
 
-            var request = await _httpClient.PutAsync(url, new StringContent(OContent, System.Text.Encoding.UTF8, "appliction/json"));
+            var request = await _httpClient.PutAsync(url, new StringContent(OContent, System.Text.Encoding.UTF8, "application/json"));
            
             return request;
         }

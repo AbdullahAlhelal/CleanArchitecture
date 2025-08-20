@@ -20,7 +20,10 @@ namespace clean_architecture.infastrcured
             webApplication.Services.AddTransient(typeof(IDendnencyInjectionDeparment) , typeof(DendnencyInjectionDeparment));
             webApplication.Services.AddTransient(typeof(IDendnencyInjectionUser) , typeof(DendnencyInjectionUser));
             webApplication.Services.AddTransient(typeof(ICirculardependency) , typeof(Circulardependency));
+
             webApplication.Services.AddScoped<MainBroker,MainBroker >();
+            webApplication.Services.AddScoped<IExternalService, ExternalServices>();
+            
         }
     }
 }

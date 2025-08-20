@@ -22,41 +22,59 @@ namespace clean_architecture.infastrcured
         }
         public async ValueTask<TResult> Post<TResult, TRequest>(string url, TRequest Content)
         {
-            var OContent =JsonConvert.SerializeObject(Content);
+            var OContent = JsonConvert.SerializeObject(Content);
 
             var request = await _httpClient.PostAsync(url, new StringContent(OContent, System.Text.Encoding.UTF8, "appliction/json"));
-            if (request.IsSuccessStatusCode) 
+            if (request.IsSuccessStatusCode)
             {
-                return JsonConvert.DeserializeObject<TResult>(await request.Content.ReadAsStringAsync());
+                return JsonConvert.DeserializeObject<TResult>(await request.Content.ReadAsStringAsync())!;
             }
-            throw new NotImplementedException();
+            return default!;
         }
 
-        public ValueTask<HttpResponseMessage> Post<TRequest>(string url, TRequest Content)
+        public async ValueTask<HttpResponseMessage> Post<TRequest>(string url, TRequest Content)
         {
-            throw new NotImplementedException();
-        }
-     
+            var OContent = JsonConvert.SerializeObject(Content);
 
-        public ValueTask<TResult> Get<TResult>(string url)
-        {
-            throw new NotImplementedException();
+            var request = await _httpClient.PostAsync(url, new StringContent(OContent, System.Text.Encoding.UTF8, "appliction/json"));
+           
+            return request;
         }
 
-      
 
-        public ValueTask<TResult> Put<TResult, TRequest>(string url, TRequest Content)
+        public async ValueTask<TResult> Get<TResult>(string url)
         {
-            throw new NotImplementedException();
+           var Oresult = await _httpClient.GetStringAsync(url);
+
+            return JsonConvert.DeserializeObject<TResult>(Oresult);
         }
 
-        public ValueTask<HttpResponseMessage> Put<TRequest>(string url, TRequest Content)
+
+
+        public async ValueTask<TResult> Put<TResult, TRequest>(string url, TRequest Content)
         {
-            throw new NotImplementedException();
+            var OContent = JsonConvert.SerializeObject(Content);
+
+            var request = await _httpClient.PutAsync(url, new StringContent(OContent, System.Text.Encoding.UTF8, "appliction/json"));
+            if (request.IsSuccessStatusCode)
+            {
+                return JsonConvert.DeserializeObject<TResult>(await request.Content.ReadAsStringAsync())!;
+            }
+            return default!;
         }
-        public ValueTask<HttpResponseMessage> Delete<TResult>(string url)
+
+        public async ValueTask<HttpResponseMessage> Put<TRequest>(string url, TRequest Content)
         {
-            throw new NotImplementedException();
+          
+            var OContent = JsonConvert.SerializeObject(Content);
+
+            var request = await _httpClient.PutAsync(url, new StringContent(OContent, System.Text.Encoding.UTF8, "appliction/json"));
+           
+            return request;
+        }
+        public async ValueTask<HttpResponseMessage> Delete<TResult>(string url)
+        {
+            return await _httpClient.DeleteAsync(url);
         }
     }
 }

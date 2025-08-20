@@ -1273,6 +1273,16 @@
         "runtime": {
           "bin/placeholder/clean architecture.Services.dll": {}
         }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
       }
     }
   },
@@ -3418,10 +3428,16 @@
       "type": "project",
       "path": "../clean architecture.Services/clean architecture.Services.csproj",
       "msbuildProject": "../clean architecture.Services/clean architecture.Services.csproj"
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Shared.csproj",
+      "msbuildProject": "../Shared/Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Shared >= 1.0.0",
       "Swashbuckle.AspNetCore >= 9.0.3",
       "Swashbuckle.AspNetCore.SwaggerGen >= 9.0.3",
       "Swashbuckle.AspNetCore.SwaggerUI >= 9.0.3",
@@ -3474,6 +3490,9 @@
             },
             "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Services\\clean architecture.Services.csproj": {
               "projectPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Services\\clean architecture.Services.csproj"
+            },
+            "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\Shared\\Shared.csproj"
             }
           }
         }

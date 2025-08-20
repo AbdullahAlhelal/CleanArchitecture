@@ -6,6 +6,9 @@ using clean_architecture.infastrcured.Factorys;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Shared;
+using System.Reflection;
 
 namespace clean_architecture.Controllers
 {
@@ -21,20 +24,24 @@ namespace clean_architecture.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly IExternalService _ExternalService;
+        private readonly IConfiguration _Configuration;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger , MainBroker mainBroker)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, MainBroker mainBroker, IExternalService ExternalService, IConfiguration Configuration)
         {
             _logger = logger;
             _mainBroker = mainBroker;
+            _ExternalService = ExternalService;
+            _Configuration = Configuration;
         }
 
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
-            return Enumerable.Range(1 , 5).Select(index => new WeatherForecast
+            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
-                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)) ,
-                TemperatureC = Random.Shared.Next(-20 , 55) ,
+                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
+                TemperatureC = Random.Shared.Next(-20, 55),
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
@@ -46,7 +53,7 @@ namespace clean_architecture.Controllers
         {
             var oDate = new Car
             {
-                CarName = car.CarName ,
+                CarName = car.CarName,
             };
             await _carServices.Create(oDate);
             return Ok(oDate);
@@ -63,15 +70,26 @@ namespace clean_architecture.Controllers
 
 
         [HttpPost("v1/Broker")]
-        public IActionResult Broker(string Url , string content)
+        public IActionResult Broker(string Url, string content)
         {
             var get = _mainBroker.Get(Url);
-            var Post = _mainBroker.Post(Url , content);
-            var Put = _mainBroker.Put(Url , content);
-            var dlete = _mainBroker.Delete(Url , content);
+            var Post = _mainBroker.Post(Url, content);
+            var Put = _mainBroker.Put(Url, content);
+            var dlete = _mainBroker.Delete(Url, content);
 
-            List<string> strings = new List<string>() { get , Post , Put , dlete };
+            List<string> strings = new List<string>() { get, Post, Put, dlete };
             return Ok(strings.Select(x => x));
+        }
+
+        [HttpPost("v1/Externalservice")]
+        public async Task<IActionResult> Externalservice([FromBody] MobileModel MobileObject)
+        {
+            // For Test
+            //https://api.restful-api.dev/objects
+            _Configuration.GetValue<string>("ExternalAPiUrl");
+            var oresult = await _ExternalService.Post<MobileModel, MobileModel>(_Configuration["ExternalAPiUrl"], MobileObject);
+
+            return Ok(oresult);
         }
 
 

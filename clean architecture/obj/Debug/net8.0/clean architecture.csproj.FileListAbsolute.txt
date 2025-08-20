@@ -102,3 +102,5 @@ C:\Users\abdullah\Source\Repos\CleanArchitecture\clean architecture\obj\Debug\ne
 C:\Users\abdullah\Source\Repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\staticwebassets\msbuild.clean architecture.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\abdullah\Source\Repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\abdullah\Source\Repos\CleanArchitecture\clean architecture\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\abdullah\Source\Repos\CleanArchitecture\clean architecture\bin\Debug\net8.0\Shared.dll
+C:\Users\abdullah\Source\Repos\CleanArchitecture\clean architecture\bin\Debug\net8.0\Shared.pdb

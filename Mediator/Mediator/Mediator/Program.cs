@@ -1,4 +1,6 @@
 
+using FluentValidation;
+
 namespace Mediator
 {
     public class Program
@@ -13,6 +15,9 @@ namespace Mediator
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddMediatR(option=>option.RegisterServicesFromAssembly(typeof(Program).Assembly));
+            builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
 
             var app = builder.Build();
 

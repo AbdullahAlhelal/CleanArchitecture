@@ -92,6 +92,17 @@ namespace clean_architecture.Controllers
             return Ok(oresult);
         }
 
+        [HttpGet("v1/getExternalservice")]
+        public async Task<IActionResult> GetExternalservice()
+        {
+            // For Test
+            //https://api.restful-api.dev/objects
+            _Configuration.GetValue<string>("ExternalAPiUrl");
+            var oresult = await _ExternalService.Get<MobileModel>(_Configuration["ExternalAPiUrl"]);
+
+            return Ok(oresult);
+        }
+
 
     }
 }

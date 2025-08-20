@@ -161,6 +161,18 @@
           }
         }
       }
+    },
+    "/WeatherForecast/v1/getExternalservice": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {

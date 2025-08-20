@@ -91,5 +91,15 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "clean_architecture.Controllers.WeatherForecastController",
+    "Method": "GetExternalservice",
+    "RelativePath": "WeatherForecast/v1/getExternalservice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

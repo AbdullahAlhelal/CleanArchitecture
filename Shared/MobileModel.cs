@@ -15,6 +15,7 @@ namespace Shared
      
         public string Capacity { get; set; } = string.Empty;
         public string capacityGB { get; set; } = string.Empty;
+        public string StrapColour { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
         public string Color { get; set; } = string.Empty;
         public int year { get; set; }

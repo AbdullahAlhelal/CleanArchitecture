@@ -97,10 +97,6 @@ C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\ne
 C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\clean architecture.pdb
 C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\clean architecture.genruntimeconfig.cache
 C:\Users\Abdullah\source\repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\ref\clean architecture.dll
-C:\Users\abdullah\Source\Repos\CleanArchitecture\clean architecture\bin\Debug\net8.0\clean architecture.staticwebassets.endpoints.json
-C:\Users\abdullah\Source\Repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\abdullah\Source\Repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\staticwebassets\msbuild.clean architecture.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\abdullah\Source\Repos\CleanArchitecture\clean architecture\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\abdullah\Source\Repos\CleanArchitecture\clean architecture\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\abdullah\Source\Repos\CleanArchitecture\clean architecture\bin\Debug\net8.0\Shared.dll
 C:\Users\abdullah\Source\Repos\CleanArchitecture\clean architecture\bin\Debug\net8.0\Shared.pdb

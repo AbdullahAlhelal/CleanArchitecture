@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture\\clean architecture.csproj": {}
+    "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture\\clean architecture.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj": {
+    "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj",
         "projectName": "clean architecture.Core",
-        "projectPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj",
-        "packagesPath": "C:\\Users\\abdullah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\obj\\",
+        "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj",
+        "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Users\\Abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,6 +27,8 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,8 +46,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -67,27 +67,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj": {
+    "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj",
+        "projectUniqueName": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj",
         "projectName": "clean architecture.infastrcured",
-        "projectPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj",
-        "packagesPath": "C:\\Users\\abdullah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\obj\\",
+        "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj",
+        "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.infastrcured\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Users\\Abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -95,14 +94,19 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj": {
-                "projectPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj"
+              "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj": {
+                "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj"
+              },
+              "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\Shared\\Shared.csproj"
               }
             }
           }
@@ -116,8 +120,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -163,27 +166,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Services\\clean architecture.Services.csproj": {
+    "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Services\\clean architecture.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Services\\clean architecture.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Services\\clean architecture.Services.csproj",
         "projectName": "clean architecture.Services",
-        "projectPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Services\\clean architecture.Services.csproj",
-        "packagesPath": "C:\\Users\\abdullah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Services\\obj\\",
+        "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Services\\clean architecture.Services.csproj",
+        "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Users\\Abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -191,17 +193,19 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj": {
-                "projectPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj"
+              "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj": {
+                "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj"
               },
-              "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj": {
-                "projectPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj"
+              "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj": {
+                "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj"
               }
             }
           }
@@ -215,8 +219,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -237,27 +240,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture\\clean architecture.csproj": {
+    "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture\\clean architecture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture\\clean architecture.csproj",
+        "projectUniqueName": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture\\clean architecture.csproj",
         "projectName": "clean architecture",
-        "projectPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture\\clean architecture.csproj",
-        "packagesPath": "C:\\Users\\abdullah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture\\obj\\",
+        "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture\\clean architecture.csproj",
+        "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Users\\Abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -265,23 +267,25 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj": {
-                "projectPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj"
+              "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj": {
+                "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Core\\clean architecture.Core.csproj"
               },
-              "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj": {
-                "projectPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj"
+              "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj": {
+                "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.infastrcured\\clean architecture.infastrcured.csproj"
               },
-              "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Services\\clean architecture.Services.csproj": {
-                "projectPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\clean architecture.Services\\clean architecture.Services.csproj"
+              "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Services\\clean architecture.Services.csproj": {
+                "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\clean architecture.Services\\clean architecture.Services.csproj"
               },
-              "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\Shared\\Shared.csproj"
+              "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\Shared\\Shared.csproj"
               }
             }
           }
@@ -295,8 +299,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -334,27 +337,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\Shared\\Shared.csproj": {
+    "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\abdullah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abdullah\\Source\\Repos\\CleanArchitecture\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Users\\Abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -362,6 +364,8 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -379,8 +383,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -401,7 +404,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -748,10 +748,7 @@
       },
       "clean architecture.Core/1.0.0": {
         "runtime": {
-          "clean architecture.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "clean architecture.Core.dll": {}
         }
       },
       "clean architecture.infastrcured/1.0.0": {
@@ -764,10 +761,7 @@
           "clean architecture.Core": "1.0.0"
         },
         "runtime": {
-          "clean architecture.infastrcured.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "clean architecture.infastrcured.dll": {}
         }
       },
       "clean architecture.Services/1.0.0": {
@@ -776,18 +770,12 @@
           "clean architecture.infastrcured": "1.0.0"
         },
         "runtime": {
-          "clean architecture.Services.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "clean architecture.Services.dll": {}
         }
       },
       "Shared/1.0.0": {
         "runtime": {
-          "Shared.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Shared.dll": {}
         }
       }
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("clean architecture.infastrcured")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+480fd909e755fa5f283fd6f37f838f9a88dc8ffa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccb486511ff78cb6f1981db4ffec1caaf3a4280d")]
 [assembly: System.Reflection.AssemblyProductAttribute("clean architecture.infastrcured")]
 [assembly: System.Reflection.AssemblyTitleAttribute("clean architecture.infastrcured")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

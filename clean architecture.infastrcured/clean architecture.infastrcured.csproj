@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\clean architecture.Core\clean architecture.Core.csproj" />
+    <ProjectReference Include="..\Shared\Shared.csproj" />
   </ItemGroup>
 
 </Project>

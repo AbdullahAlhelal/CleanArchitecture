@@ -98,7 +98,7 @@ namespace clean_architecture.Controllers
             // For Test
             //https://api.restful-api.dev/objects
             _Configuration.GetValue<string>("ExternalAPiUrl");
-            var oresult = await _ExternalService.Get<MobileModel>(_Configuration["ExternalAPiUrl"]);
+            var oresult = await _mainBroker.GetMobiles(_Configuration["ExternalAPiUrl"]!);
 
             return Ok(oresult);
         }

@@ -695,10 +695,7 @@
       },
       "clean architecture.Core/1.0.0": {
         "runtime": {
-          "clean architecture.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "clean architecture.Core.dll": {}
         }
       },
       "clean architecture.infastrcured/1.0.0": {
@@ -711,10 +708,7 @@
           "clean architecture.Core": "1.0.0"
         },
         "runtime": {
-          "clean architecture.infastrcured.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "clean architecture.infastrcured.dll": {}
         }
       }
     }

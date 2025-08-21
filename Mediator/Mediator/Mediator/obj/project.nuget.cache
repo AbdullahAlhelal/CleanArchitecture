@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DLS3Ae4PuT5szXD6AiVTFmG4aiPisOhc9eaeOfd3ojyGkdfvcZBMSnvDcrj1QMoFQA32pEgI1DNc+L3UIMXRPg==",
+  "dgSpecHash": "Yq+Up/pWVqiD89apFCE9Ciy5mf6UiDkEO0JNc7XRszTKdC2+Tev9EvF9yOCRNsrlM8SWE2lo3MRdr+T6Pnww5Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Abdullah\\source\\repos\\CleanArchitecture\\Mediator\\Mediator\\Mediator\\Mediator.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\Abdullah\\.nuget\\packages\\microsoft.identitymodel.logging\\8.0.1\\microsoft.identitymodel.logging.8.0.1.nupkg.sha512",
     "C:\\Users\\Abdullah\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.0.1\\microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
     "C:\\Users\\Abdullah\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Abdullah\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Abdullah\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Abdullah\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Abdullah\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

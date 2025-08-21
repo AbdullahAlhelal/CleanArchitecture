@@ -1,5 +1,6 @@
 
 using FluentValidation;
+using Mediator.Exception;
 
 namespace Mediator
 {
@@ -27,7 +28,7 @@ namespace Mediator
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.HandelException();
             app.UseHttpsRedirection();
 
             app.UseAuthorization();

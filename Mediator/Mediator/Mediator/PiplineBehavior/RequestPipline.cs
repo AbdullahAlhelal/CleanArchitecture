@@ -14,7 +14,14 @@ namespace Mediator.PiplineBehavior
         }
         public Task<TResponse> Handle(TRequest request , RequestHandlerDelegate<TResponse> next , CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+
+            var context = new ValidationContext<TRequest>(request);
+            var failiers = _validators.Select(o=>o.Validate(context)).SelectMany(ob=>ob.Errors).Where(item=>item != null).ToList();
+            if(failiers.Any() ) 
+            {
+                throw new ValidationException(failiers);
+            }
+            return next();
         }
     }
 

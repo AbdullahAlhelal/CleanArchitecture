@@ -39,3 +39,4 @@ C:\Users\Abdullah\source\repos\CleanArchitecture\Mediator\Mediator\Mediator\obj\
 C:\Users\Abdullah\source\repos\CleanArchitecture\Mediator\Mediator\Mediator\obj\Debug\net8.0\Mediator.pdb
 C:\Users\Abdullah\source\repos\CleanArchitecture\Mediator\Mediator\Mediator\obj\Debug\net8.0\Mediator.genruntimeconfig.cache
 C:\Users\Abdullah\source\repos\CleanArchitecture\Mediator\Mediator\Mediator\obj\Debug\net8.0\ref\Mediator.dll
+C:\Users\Abdullah\source\repos\CleanArchitecture\Mediator\Mediator\Mediator\bin\Debug\net8.0\Newtonsoft.Json.dll

@@ -14,10 +14,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Command\" />
-    <Folder Include="Handlers\CommandHandler\" />
-    <Folder Include="Validations\" />
-  </ItemGroup>
-
 </Project>

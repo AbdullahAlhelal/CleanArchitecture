@@ -2,7 +2,9 @@
 using FluentValidation;
 using Mediator.Exception;
 using Mediator.Interfaces;
+using Mediator.PiplineBehavior;
 using Mediator.Services;
+using MediatR;
 using Microsoft.AspNetCore.Identity;
 
 namespace Mediator
@@ -23,6 +25,7 @@ namespace Mediator
             builder.Services.AddMediatR(option=>option.RegisterServicesFromAssembly(typeof(Program).Assembly));
             builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
             builder.Services.AddScoped<IUsersServices , UserServices>();
+            builder.Services.AddTransient(typeof(IPipelineBehavior<,>) ,typeof(RequestPipline<,>));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

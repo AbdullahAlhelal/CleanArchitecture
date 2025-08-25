@@ -1,4 +1,5 @@
-﻿using Mediator.Interfaces;
+﻿using Mediator.Command;
+using Mediator.Interfaces;
 using Mediator.Models;
 using Mediator.Queries;
 using Mediator.Services;
@@ -36,12 +37,17 @@ namespace Mediator.Controllers
 
             return Ok(Oresult);
         }
-        //[HttpPost("AddUser")]
-        //public ActionResult<UserModel> AddUser(UserModel userModel)
-        //{
-        //    //_userServices.AddUser(userModel);
-        //    //return CreatedAtAction(nameof(GetUserById) , new { id = userModel.Id } , userModel);
+        [HttpPost("AddUser")]
+        public ActionResult<UserModel> AddUser(UserModel userModel)
+        {
+            var query = new AddUserCommand(userModel.Id, userModel.FirstName, userModel.LastName);
+            var Oresult = _mediator.Send(query);
 
-        //}
+            return Ok(Oresult);
+
+            //_userServices.AddUser(userModel);
+            //return CreatedAtAction(nameof(GetUserById) , new { id = userModel.Id } , userModel);
+
+        }
     }
 }

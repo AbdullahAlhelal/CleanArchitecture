@@ -19,6 +19,7 @@ namespace Mediator.PiplineBehavior
             var failiers = _validators.Select(o=>o.Validate(context)).SelectMany(ob=>ob.Errors).Where(item=>item != null).ToList();
             if(failiers.Any() ) 
             {
+                
                 throw new ValidationException(failiers);
             }
             return next();
